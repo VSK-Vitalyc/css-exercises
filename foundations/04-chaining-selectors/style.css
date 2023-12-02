@@ -1,1 +1,33 @@
-/* Add CSS Styling */
+/* Add CSS Styling
+
+MADE THESE MISTAKES FIRST... THEN SAW THE SOLUTION AND MADE SURE I DID IT RIGHT....
+
+.avatar {
+  width: auto;
+  height: auto; 
+}
+
+.distorted {
+  width: 200px;
+  height: 400px;
+}
+
+.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+.original {
+  width: auto !important;
+  height: auto !important;
+} */
+
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
